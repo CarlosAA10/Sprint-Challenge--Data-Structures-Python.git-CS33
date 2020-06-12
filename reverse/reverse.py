@@ -51,8 +51,6 @@ class LinkedList:
             reversed = self.reverse_list(node.next_node, prev)
             node.next_node.next_node = node
             node.next_node = prev 
-            print(reversed.value, 'reversed ')
+            print(reversed, 'reversed ')
             return reversed
-
-
 
